@@ -33,7 +33,6 @@ function Website({ Component, pageProps, router }) {
 // Before: export default App;
 export default process.env.PASSWORD_PROTECT
   ? withPasswordProtect(Website, {
-      // Options go here (optional)
-      loginApiUrl: '/login'
+      loginApiUrl: '/api/login'
     })
   : Website
