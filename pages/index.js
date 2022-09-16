@@ -74,8 +74,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Son is a full-stack developer based in Vietnam with a passion for
-          designing and implementing technical solutions and feature
-          improvements. When not online, he loves coding with personal projects.
+          designing technical solutions and feature improvements. He loves
+          coding with personal projects in free time.
         </Paragraph>
       </Section>
 
@@ -212,9 +212,7 @@ const Home = () => (
                 passHref
                 scroll={false}
               >
-                <Link target="_blank">
-                  https://dragonwar.io
-                </Link>
+                <Link target="_blank">https://dragonwar.io</Link>
               </NextLink>
             </BioLi>
             <BioLi>

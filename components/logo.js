@@ -27,8 +27,8 @@ const Logo = () => {
           <Image
             src="/images/Avatar.jpeg"
             alt="Profile image"
-            width="32px"
-            height="32px"
+            width="26px"
+            height="26px"
             style={{
               borderRadius: '50%'
             }}
