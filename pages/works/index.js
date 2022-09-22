@@ -7,7 +7,7 @@ const Works = () => (
   <Layout title="Works">
     <SimpleGrid>
       <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
+        <Heading as="h3" variant="section-title" mt={8}>
           CNotion
         </Heading>
         <Text>Track your connected wallet, support for Metamask wallet.</Text>
