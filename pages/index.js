@@ -204,7 +204,7 @@ const Home = () => (
               - Presented software design issues, questions, and suggestions to
               the design of features with my colleagues.
             </BioLi>
-            <div style={{ marginTop: '15px' }}>Released live:</div>
+            <div style={{ marginTop: '15px' }}>Live version:</div>
             <BioLi>
               <NextLink
                 href="https://dragonwar.io/"

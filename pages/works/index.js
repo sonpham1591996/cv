@@ -6,12 +6,16 @@ import ZoomImage from '../../components/zoom-image'
 const Works = () => (
   <Layout title="Works">
     <SimpleGrid>
-      <Section delay={0.3}>
+      <Section>
         <Heading as="h3" variant="section-title" mt={8}>
           CNotion
         </Heading>
         <Text>Track your connected wallet, support for Metamask wallet.</Text>
-        
+        <Text>
+          - Backend: NodeJS, ExpressJS, MongoDB, Redis, Agenda Worker Jobs
+        </Text>
+        <Text>- Frontend: NextJS, Web3 (Metamask)</Text>
+
         <div style={{ margin: '2rem auto' }}>
           <ZoomImage
             src="/images/portfolio.png"
