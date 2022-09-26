@@ -76,6 +76,17 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
+            href="https://drive.google.com/file/d/1ZHCfwgPyhxnKdff7YLsWQTv_ahF7tHFE/view"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            CV
+          </LinkItem>
+          <LinkItem
+            target="_blank"
             href="https://github.com/sonpham1591996?tab=repositories"
             path={path}
             display="inline-flex"
