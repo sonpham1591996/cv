@@ -34,6 +34,51 @@ const Works = () => (
           />
         </div>
       </Section>
+
+      <Section>
+        <Heading as="h3" variant="section-title" mt={8}>
+          RadaChain News
+        </Heading>
+        <Text>
+          Collect all cryptocurrencies news from popular providers like:{' '}
+        </Text>
+        <ul style={{ marginLeft: '20px' }}>
+          <li>
+            <Text my={4}>
+              <a href="https://cryptonews.com/" target="blank">
+                https://cryptonews.com/
+              </a>
+            </Text>
+          </li>
+          <li>
+            <Text my={4}>
+              <a href="https://cryptobriefing.com/" target="blank">
+                https://cryptobriefing.com/
+              </a>
+            </Text>
+          </li>
+          <li>
+            <Text my={4}>
+              <a href="https://bitcoinist.com/" target="blank">
+                https://bitcoinist.com/
+              </a>
+            </Text>
+          </li>
+          <li>
+            <Text>
+              <a href="https://cointelegraph.com/" target="blank">
+                https://cointelegraph.com/
+              </a>
+            </Text>
+          </li>
+        </ul>
+        <Text my={8} style={{ fontWeight: 'bold' }}>
+          Link:{' '}
+          <a href="https://dev-radachain.vercel.app/" target="blank">
+            https://dev-radachain.vercel.app/
+          </a>
+        </Text>
+      </Section>
     </SimpleGrid>
   </Layout>
 )
