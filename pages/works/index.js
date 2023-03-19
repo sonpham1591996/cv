@@ -74,8 +74,8 @@ const Works = () => (
         </ul>
         <Text my={8} style={{ fontWeight: 'bold' }}>
           Link:{' '}
-          <a href="https://dev-radachain.vercel.app/" target="blank">
-            https://dev-radachain.vercel.app/
+          <a href="https://radachain-news.up.railway.app/" target="blank">
+            https://radachain-news.up.railway.app/
           </a>
         </Text>
       </Section>
