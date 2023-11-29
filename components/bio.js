@@ -17,6 +17,6 @@ export const BioLi = styled.div`
   text-align: left;
   margin-left: 1rem;
   line-height: 2rem;
-  overflow: hidden
-  white-space: wrap;
+  overflow: hidden;
+  white-space: pre-wrap;
 `

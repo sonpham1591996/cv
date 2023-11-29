@@ -5,7 +5,7 @@ import NextLink from 'next/link'
 const WorkTitle = ({ children }) => (
   <Box>
     <NextLink href="/works" passHref>
-      <Link>Works</Link>
+        Works
     </NextLink>
     <span>
       {' '}

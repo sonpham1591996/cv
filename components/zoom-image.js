@@ -1,14 +1,13 @@
-import Zoom from 'next-image-zoom'
+import Image from "next/image";
 
 const ZoomImage = ({ src, alt, width, height }) => (
   <div
     style={{
       height: height ?? '300px',
       width: width ?? '100%',
-      cursor: 'zoom-in'
     }}
   >
-    <Zoom src={src} layout={'fill'} alt={alt} width="100%" height="100%" />
+    <Image src={src} alt={alt} width={768} height={540} />
   </div>
 )
 
