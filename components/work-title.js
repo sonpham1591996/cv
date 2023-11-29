@@ -1,5 +1,5 @@
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import { Box, Heading, Link } from '@chakra-ui/react'
+import {ChevronRightIcon} from '@chakra-ui/icons'
+import {Box, Heading} from '@chakra-ui/react'
 import NextLink from 'next/link'
 
 const WorkTitle = ({ children }) => (

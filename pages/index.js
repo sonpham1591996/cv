@@ -1,17 +1,9 @@
-import {
-    Box,
-    chakra,
-    Container,
-    Heading,
-    Link,
-    useColorModeValue
-} from '@chakra-ui/react'
+import {Box, chakra, Container, Heading, useColorModeValue} from '@chakra-ui/react'
 import Image from 'next/image'
 import {BioLi, BioSection, BioYear} from '../components/bio'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
-import NextLink from 'next/link'
 
 const ProfileImage = chakra(Image, {
     shouldForwardProp: prop => ['width', 'height', 'src', 'alt', 'style'].includes(prop)
